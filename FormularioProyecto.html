@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body{
+                background-image: linear-gradient(rgba(19, 254, 109, 0.797),rgb(232, 168, 7));
+            }
+            h1{
+                color:blue;
+            }
+            h1{
+                text-shadow: 2px 2px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center"><font face="Rockwell" size="10">FIT-YOU</font></h1>
+        <br>
+        <form action="http://www.iesjacaranda-brenes.org/lmsgi/resultado.php." method="get">
+            <p align="center">Nombre: <input type="text" required></p>
+            <p align="center">Apellido1: <input type="text" required></p>
+            <p align="center">Apellido2: <input type="text" required></p>
+            <p align="center">DNI: <input type="text" required></p>
+            <p align="center">Fecha de nacimiento: <input type="date" required></p>
+            <p align="center">Sexo: 
+                <input type="radio" name="hm" value="h"> Hombre
+                <input type="radio" name="hm" value="m"> Mujer
+            </p>
+            <p align="center">Teléfono: <input type="number" required></p>
+            <p align="center">Nacionalidad: <input type="text"></p>
+            <br>
+            <p align="center">Nombre de Usuario: <input type="text" required></p>
+            <p align="center">Contraseña: <input type="password" required></p>
+            <br>
+            <p align="center">Para poder ajustar su entrenamiento de mejor forma debe autovalorarse en ciertos aspectos:</p>
+            <p align="center">Impacto de rodilla <input type="range"></p>
+            <p align="center">Capacidad para hacer flexiones <input type="range"></p>
+            <p align="center">Capacidad para hacer trabajo abdominal <input type="range"></p>
+            <p align="center">Estado físico de tren inferior <input type="range"></p>
+            <p align="center"><textarea name="texto" rows="5" cols="=50" placeholder="Comentenos sus objetivos"></textarea></p>
+            <br>
+            <p align="center"><input type="submit" value="Enviar"></p>
+        </form>
+    </body>
+</html>
